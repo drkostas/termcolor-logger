@@ -1,4 +1,4 @@
-from .colorized_logger import ColorLogger
+from .colored_logger import ColorLogger
 
 __author__ = "drkostas"
 __email__ = "georgiou.kostas94@gmail.com"
