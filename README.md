@@ -11,13 +11,9 @@ termcolor. [PYPI Package](https://pypi.org/manage/project/termcolor-logger/relea
 
 + [Using the library](#using)
     + [Installing and using the library](#install_use)
-    + [Creating a config file](#configuration)
-    + [Set the required environment variables](#env_variables)
 + [Manually install the library](#manual_install)
     + [Prerequisites](#configuration)
     + [Install the requirements](#installing_req)
-    + [Run the Unit Tests](#unit_tests)
-+ [Continuous Integration](#ci)
 + [License](#license)
 
 ## Using the library <a name = "using"></a>
