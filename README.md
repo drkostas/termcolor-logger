@@ -5,14 +5,14 @@
 ## About <a name = "about"></a>
 
 A logger with text formatting using
-termcolor. [PYPI Package](https://pypi.org/manage/project/termcolor-logger/releases/)
+termcolor. [PYPI Package](https://pypi.org/project/termcolor-logger/)
 
 ## Table of Contents
 
 + [Using the library](#using)
     + [Installing and using the library](#install_use)
 + [Manually install the library](#manual_install)
-    + [Prerequisites](#configuration)
+    + [Prerequisites](#prerequisites)
     + [Install the requirements](#installing_req)
 + [License](#license)
 
