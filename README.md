@@ -14,6 +14,7 @@ termcolor. [PYPI Package](https://pypi.org/project/termcolor-logger/)
 + [Manually install the library](#manual_install)
     + [Prerequisites](#prerequisites)
     + [Install the requirements](#installing_req)
++ [Update PyPI package](#pypi)
 + [License](#license)
 
 ## Using the library <a name = "using"></a>
@@ -46,8 +47,7 @@ fancy_logger.info("You can customize each log message differently",
 ## Manually install the library <a name = "manual_install"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for
-development and testing purposes. See deployment for notes on how to deploy the project on a live
-system.
+development and testing purposes.
 
 ### Prerequisites <a name = "prerequisites"></a>
 
@@ -68,7 +68,24 @@ $ echo $SHELL
 ### Install the requirements <a name = "installing_req"></a>
 
 All the installation steps are being handled by
-the [Makefile](https://raw.githubusercontent.com/drkostas/termcolor-logger/master/Makefile). First,
+the [Makefile](https://raw.githubusercontent.com/drkostas/termcolor-logger/master/Makefile).
+
+First, modify the python version (`min_python`) and everything else you need in
+the [settings.ini](https://raw.githubusercontent.com/drkostas/termcolor-logger/master/settings.ini).
+
+Then, execute the following commands:
+
+```ShellSession
+$ make create_env
+$ conda activate yaml_config_wrapper
+$ make dist
+```
+
+Now you are ready to use and modify the library.
+
+## Update PyPI package <a name = "pypi"></a>
+
+This is mainly for future reference for the developers of this project. First,
 create a file called `~/.pypirc` with your pypi login details, as follows:
 
 ```
@@ -77,16 +94,19 @@ username = your_pypi_username
 password = your_pypi_password
 ```
 
-Then, modify the python version and everything else you need in
+Then, modify the python version (`min_python`), project status (`status`), release version (`version`) 
+and everything else you need in
 the [settings.ini](https://raw.githubusercontent.com/drkostas/termcolor-logger/master/settings.ini).
 
 Finally, execute the following commands:
 
 ```ShellSession
 $ make create_env
-$ conda activate termcolor_logger
+$ conda activate yaml_config_wrapper
 $ make release
 ```
+
+For a dev release, change the `testing_version` and instead of `make release`, run `make release_test`.
 
 ## License <a name = "license"></a>
 
