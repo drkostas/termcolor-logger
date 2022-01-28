@@ -77,7 +77,7 @@ Then, execute the following commands:
 
 ```ShellSession
 $ make create_env
-$ conda activate yaml_config_wrapper
+$ conda activate termcolor_logger
 $ make dist
 ```
 
@@ -102,7 +102,7 @@ Finally, execute the following commands:
 
 ```ShellSession
 $ make create_env
-$ conda activate yaml_config_wrapper
+$ conda activate termcolor_logger
 $ make release
 ```
 
