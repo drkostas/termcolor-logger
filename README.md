@@ -1,6 +1,6 @@
 # Termcolor Logger
 
-[![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)](https://raw.githubusercontent.com/drkostas/termcolor-logger/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/drkostas/termcolor-logger/blob/master/LICENSE)
 
 ## About <a name = "about"></a>
 
@@ -68,10 +68,10 @@ $ echo $SHELL
 ### Install the requirements <a name = "installing_req"></a>
 
 All the installation steps are being handled by
-the [Makefile](https://raw.githubusercontent.com/drkostas/termcolor-logger/master/Makefile).
+the [Makefile](https://github.com/drkostas/termcolor-logger/blob/master/Makefile).
 
 First, modify the python version (`min_python`) and everything else you need in
-the [settings.ini](https://raw.githubusercontent.com/drkostas/termcolor-logger/master/settings.ini).
+the [settings.ini](https://github.com/drkostas/termcolor-logger/blob/master/settings.ini).
 
 Then, execute the following commands:
 
@@ -96,7 +96,7 @@ password = your_pypi_password
 
 Then, modify the python version (`min_python`), project status (`status`), release version (`version`) 
 and everything else you need in
-the [settings.ini](https://raw.githubusercontent.com/drkostas/termcolor-logger/master/settings.ini).
+the [settings.ini](https://github.com/drkostas/termcolor-logger/blob/master/settings.ini).
 
 Finally, execute the following commands:
 
@@ -111,7 +111,7 @@ For a dev release, change the `testing_version` and instead of `make release`, r
 ## License <a name = "license"></a>
 
 This project is licensed under the MIT License - see
-the [LICENSE](https://raw.githubusercontent.com/drkostas/termcolor-logger/master/LICENSE) file for
+the [LICENSE](https://github.com/drkostas/termcolor-logger/blob/master/LICENSE) file for
 details.
 
 <a href="https://www.buymeacoffee.com/drkostas" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
