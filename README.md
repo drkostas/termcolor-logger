@@ -1,3 +1,5 @@
+![termcolor-logger](docs/images/banner.png)
+
 # Termcolor Logger
 [![Downloads](https://static.pepy.tech/personalized-badge/termcolor-logger?period=total&units=international_system&left_color=grey&right_color=red&left_text=Downloads)](https://pepy.tech/project/termcolor-logger)
 [![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)](https://github.com/drkostas/termcolor-logger/blob/master/LICENSE)
