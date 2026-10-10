@@ -1,0 +1,11 @@
+kind: banner
+name: termcolor-logger
+line: A Python logger that prints coloured and formatted messages in the terminal.
+accent: green
+diagram:
+- box:
+    text: logger
+- arrow
+- terminal:
+    label: coloured output
+    accent: true
